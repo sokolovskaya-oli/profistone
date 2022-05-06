@@ -1,0 +1,29 @@
+$text-default-color: #0000;
+$text-color-white: #ffff;
+$text-color-orange: #FE8647;
+$section-title-color: rgba(0, 0, 0, .6);
+
+
+.section-title{
+    display: flex;
+    color: $section-title-color;
+    padding: 60px 0 50px 0;
+}
+.line{
+    width:150px;
+    height: 3px;
+    background-color: #595959;
+    margin:auto 0;
+    margin-right: 70px;
+   
+  }
+  .title{
+    display: flex;
+    font-size: calc(32px + (48 - 32) * (100vw / 1440));
+    line-height: 56px;
+    color: #FE8647;
+    font-weight: 700;
+  
+  }
+
+ 

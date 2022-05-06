@@ -1,0 +1,40 @@
+.section-materials{
+    background-color: #ECECEC;
+    .section-materials__wrapper{
+        background: #ECECEC;
+        padding: 1px 60px 80px 75px;
+    }
+    .materials__container{
+        display: flex;
+    }
+    .materials__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 410px;
+    }
+    .materials__item_title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        }
+    .materials__item_subtitle{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 2px;
+        color:#FE8647;
+        text-transform: uppercase;
+        }
+    .materials__item:not(:last-child){
+        margin-right: 30px;
+    }
+ 
+}
+
+
+
+

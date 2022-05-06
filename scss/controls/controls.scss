@@ -1,0 +1,77 @@
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 50px;
+    font-weight: 600;
+
+    &:hover{
+        border: 2px solid #FE8647;
+        background-color: #FE8647;
+        color: #ffff;
+    }
+
+    &-primary{
+    border: 1px solid #FE8647;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height:18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    }
+    &-secondary{
+    border: 1px solid #ffff;
+    font-size: 22px;
+    line-height:23px;
+    }
+}
+.callback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 14px solid hsla(0, 0%, 110%, .8);
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #ffff;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-image: url('../images/project/phone1.svg');
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+    &::after{
+    content: 'Обратный звонок';
+    padding-top: 40px;
+    }
+
+}
+.callback:hover{
+    border: 14px solid rgba(255, 255, 255, 0.3);
+  }
+
+.callback-mobile{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    z-index: 20;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1.2s;
+
+    &--visible{
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s;
+    }
+}

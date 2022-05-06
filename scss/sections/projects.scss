@@ -1,0 +1,111 @@
+.section-projects{
+  .section-projects__wrapper{
+    padding: 0px 60px 0px 75px;
+   }
+  .title_adv{
+    color: #595959;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 1px;
+  }
+  .title_adv_site{
+     text-transform: uppercase;
+     color:#FE8647;
+     font-size: 48px;
+     font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 2px;
+   } 
+  .projects-slider{
+      position: relative;
+      overflow: hidden;
+  }
+  .projects-slider__slide{
+      display: flex;
+  }
+  .projects-slider__image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -80px;
+      width: 55%;
+  }
+  .projects-slider__bcg{
+      width: 55%;
+      min-height: 560px;
+      background-color: #EAEAEA;
+  }
+    .projects-slider__title{
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 52px;
+      color: #000000;
+      padding: 140px 120px 0 60px;
+  }
+    .projects-slider .swiper-pagination-current{
+      font-size: 36px;
+      color: #FE8647;
+      font-weight: 800;
+      line-height: 42px;
+  }
+    .projects-slider .swiper-pagination-total{
+      color: #595959;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 28px;
+  }
+      .swiper-pagination__project{
+        
+        font-size: 36px;
+        color: #FE8647;
+        font-weight: 800;
+        line-height: 42px;
+
+        position: absolute;
+        width:100px;
+        top: 60px;
+        left: 70px;
+        z-index: 2;
+      }
+      .swiper-button-prev__project{
+        background-image: url('../images/icons/arrow-left-white.svg');  
+      
+        background-position: center;
+        background-color: #FE8647;
+        background-repeat: no-repeat;
+        box-shadow: 0px 10px 20px 0px rgba(250, 120, 52, 0.2);
+        top: 430px;
+        left: 65px;
+      }
+      .swiper-button-next__project{
+        background-image: url('../images/icons/arrow-right-white.svg');  
+        background-color:#FE8647;
+        background-repeat: no-repeat;
+        background-position: 50% 48%;
+        box-shadow: 0px 10px 20px 0px rgba(250, 120, 52, 0.2);
+        top: 430px;
+        left: 145px;
+      }
+      .swiper-button-next__project, .swiper-button-prev__project{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 4;
+        cursor: pointer;
+      }
+      .callback {
+        width: 176px;
+        height: 176px;
+        background-color: #FE8647;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 4;
+      }
+      .btn_callback__project{
+        top: 375px;
+        right: 15px;
+      }
+    
+}

@@ -1,0 +1,57 @@
+$default-placeholder-color: #666666;
+
+
+*::-webkit-input-placeholder        {color: $default-placeholder-color;	opacity: 1;}
+*:-moz-placeholder                  {color: $default-placeholder-color;	opacity: 1;}
+*::-moz-placeholder                 {color: $default-placeholder-color; opacity: 1;}
+*:-ms-input-placeholder             {color: $default-placeholder-color; opacity: 1;}
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1;
+}
+
+a,button{
+  cursor: pointer; 
+  transition: all ease-in .2s; 
+  text-decoration: none;
+  outline: none;
+}
+
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+._container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+.image-slider__image img {
+  width: 1440px;
+  object-fit: contain;
+}
+
+.wrapper {
+ min-height: 100%;
+ overflow: hidden;
+}

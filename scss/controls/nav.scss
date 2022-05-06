@@ -1,0 +1,25 @@
+$nav-default-color: #ffff;
+$nav-hover-color: #FE8647;
+
+.nav{
+    width: 100%;
+    
+    &-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .nav__link{
+            font-size: 16px;
+            color: $nav-default-color;
+            margin: 0 10px; 
+
+            &:hover{
+                color: $nav-hover-color;
+            }
+        }
+        
+    }
+}
+ 
+ 

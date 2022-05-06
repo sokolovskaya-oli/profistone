@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shcortcut icon" href="images/icons/logo-img.svg" type="image/svg+xml">  
+    <title>Profystone</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper _container">
+            <div class="header__container">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="images/icons/Logo-header.svg" alt="Logo">
+                    <img class="header__logo-img-2" src="images/icons/Logo-header-gray.svg" alt="Logo">
+                </div>
+                <div class="header__nav">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a class="nav__link" href="#advantages">Преимущества</a></li>
+                        <li><a class="nav__link" href="#products">Продукция</a></li>
+                        <li><a class="nav__link" href="#materials">Материалы</a></li>
+                        <li><a class="nav__link" href="#projects">Работы</a></li>
+                        <li><a class="nav__link" href="#feedback">Отзывы</a></li>
+                        <li><a class="nav__link" href="#contacts">Контакты</a></li>
+                    </ul>
+                    <div class="nav-social-wrapper">
+                        <button class="button button-primary btn-callback">узнать стоимость</button>
+                        <div class="nav-social-link__wrapper">
+                            <div class="nav-social-link"><a href="#"><img src="images/icons/fb-icon-white.svg" alt="social-iсon-meta"></a></div>
+                            <div class="nav-social-link"><a href="#"><img src="images/icons/insta-icon-white.svg" alt="social-iсon-instagram"></a></div>
+                            <div class="nav-social-link"><a href="#"><img src="images/icons/telegram-icon-white.svg" alt="social-iсon-telegram"></a></div>
+                            <div class="nav-social-link"><a href="#"><img src="images/icons/viber-icon-white.svg" alt="social-iсon-viber"></a></div>
+                            <div class="nav-social-link"><a href="#"><img src="images/icons/whatsapp-icon-white.svg" alt="social-iсon-whatsapp"></a></div>
+                        </div>
+                    </div>
+                </nav>
+                </div>
+                <div class="header__phone">
+                    <a class="header__phone-link" href="tel:+">8 (812) 566-9624</a>
+                </div>
+                <div class="header__button">
+                    <button class="button button-primary btn-callback" id="open-modal-window">узнать стоимость</button>
+                </div>
+                <div class="nav-burger-btn">
+                    <span class="burger-btn-line"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-hero" id="hero">
+            <div class="section-hero__wrapper">                
+                    <div class="image-slider swiper-container">
+                        <div class="image-slider__wrapper swiper-wrapper">
+                            <div class="image-slider__slide swiper-slide">
+                                <img src="images/mainSliders/slider-kitchentable-big.jpg" alt="slider-kitchen">
+                             </div>
+                            <div class="image-slider__slide swiper-slide">
+                                 <img src="./images/mainSliders/slider-fireplace-big.jpg" alt="slider-fireplace">
+                            </div>
+                            <div class="image-slider__slide swiper-slide">
+                               <img src="./images/mainSliders/slider-kitchenwall-big.jpg" alt="slider-kitchenwall">
+                            </div>
+                            <div class="image-slider__slide swiper-slide">
+                                <img src="./images/mainSliders/slider-poddon-big.jpg" alt="slider-poddon">
+                             </div>
+                        </div>
+                        <div class="swiper-pagination"></div>                        
+                    </div>
+                    <div class="hero-section__text-container _container">
+                        <div class="hero-section__wrapper-text">
+                            <p class="hero-section-text"><span class="hreo-section-text-accent">Столешницы</span><br/>
+                            из влагостойкого лдсп от производителя
+                            </p>
+                            <button class="button button-secondary btn-callback">Заказать расчет <img class="arrow-btn-hero" src="images/icons/arrow-btn-hero.svg" alt="button-hero-img"></button>
+                        </div>
+                    </div>
+            </div>
+        </section> 
+        <section class="section-advantages" id="advantages">
+            <div class="section-advantages__wrapper _container">
+                <div class="section-title title">
+                    <div class="title-line line"></div>
+                    <h2><span class="title_adv">Преимущества</span> <span class="title_adv_site">Profystone.ru</span></h2>
+                </div>
+                <div class="section-advantages__content">
+                    <div class="advantages-image-wrapper">
+                        <img class="img-responsive" src="images/advantage/advetages.png" alt="icon-advantages">
+                       <div class="btn_callback__adv callback btn-callback"></div>
+                    </div>
+                    <div class="advantages-content">
+                        <div class="advantages-content__item">
+                            <div class="advantage-icon">
+                                <img class="img-responsive" src="images/advantage/adv-icon-1.svg" alt="adv-icon">
+                             </div>
+                            <p class="advantage-description">Не боятся воды</p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <div class="advantage-icon">
+                                <img class="img-responsive" src="images/advantage/adv-icon-2.svg" alt="adv-icon">
+                            </div>
+                            <p class="advantage-description">Стойкость к температурам</p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <div class="advantage-icon">
+                                <img class="img-responsive" src="images/advantage/adv-icon-3.svg" alt="adv-icon">
+                            </div>
+                            <p class="advantage-description">Устойчивость к царапинам</p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <div class="advantage-icon">
+                                <img class="img-responsive" src="images/advantage/adv-icon-4.svg" alt="adv-icon">
+                            </div>
+                            <p class="advantage-description">Отличная ударопрочность</p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <div class="advantage-icon">
+                                <img class="img-responsive" src="images/advantage/adv-icon-5.svg" alt="adv-icon">
+                            </div>
+                            <p class="advantage-description">Разнообразие форм</p>
+                        </div>
+                        <div class="advantages-content__item">
+                            <div class="advantage-icon">
+                                <img class="img-responsive" src="images/advantage/adv-icon-6.svg" alt="adv-icon">
+                            </div>
+                            <p class="advantage-description">Подгонка до миллиметра</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="section-products" id="products">
+            <div class="section-products__wrapper _container">
+                    <div class="section-title title">
+                        <div class="title-line line"></div>
+                        <h2>Продукция</h2>
+                    </div>
+                    <div class="products-slider swiper-container">
+                        <div class="products-slider__wrapper swiper-wrapper">
+                            <div class="products-slider__slide swiper-slide">
+                                <div class="products-slider__image">
+                                    <img class="img-responsive" src="images/productsSliders/product-1.svg" alt="slider-kitchentable">
+                                </div>
+                                <h3 class="products-slider__title">Столешницы кухоные</h3>
+                            </div>
+                            <div class="products-slider__slide swiper-slide">
+                                <div class="products-slider__image">
+                                    <img class="img-responsive" src="images/productsSliders/product-2.svg" alt="slider-windowSill">
+                                </div>
+                                <h3 class="products-slider__title">Подоконники</h3>
+                            </div>
+                            <div class="products-slider__slide swiper-slide">
+                                <div class="products-slider__image">
+                                    <img class="img-responsive" src="images/productsSliders/product-3.svg" alt="slider-kitchenwall">
+                                </div>
+                                <h3 class="products-slider__title">Фартуки</h3>
+                            </div>
+                            <div class="products-slider__slide swiper-slide">
+                                <div class="products-slider__image">
+                                    <img class="img-responsive" src="images/productsSliders/product-1.svg" alt="slider-stairs">
+                                </div>
+                                <h3 class="products-slider__title">Лестницы из камня</h3>
+                            </div>
+                            <div class="products-slider__slide swiper-slide">
+                                <div class="products-slider__image">
+                                    <img class="img-responsive" src="images/productsSliders/product-2.svg" alt="slider-fireplace">
+                                </div>
+                                <h3 class="products-slider__title">Камины</h3>
+                            </div>
+                            <div class="products-slider__slide swiper-slide">
+                                <div class="products-slider__image">
+                                    <img class="img-responsive" src="images/productsSliders/product-3.svg" alt="slider-poddon">
+                                </div>
+                                <h3 class="products-slider__title">Поддоны в ванную комнату</h3>
+                            </div>
+                        </div>
+                            <div class="swiper-pagination_products"></div>
+                            <div class="swiper-button-prev_products"></div>
+                            <div class="swiper-button-next_products"></div>
+                    </div>    
+            </div>
+        </section>
+        <section class="section-materials" id="materials">
+            <div class="section-materials__wrapper _container">
+                    <div class="section-title title">
+                        <div class="title-line line"></div>
+                        <h2>Материалы</h2>
+                    </div>
+                    <div class="materials__container">
+                        <div class="materials__item">
+                            <img class="img-responsive" src="images/materials/materials-1.png" alt="material-acril">
+                            <h3 class="materials__item_title">Акриловый камень</h3>
+                            <p class="materials__item_subtitle">Чехия</p>
+                        </div>
+                        <div class="materials__item">
+                            <img class="img-responsive" src="images/materials/materials-2.png" alt="material-kvarts">
+                            <h3 class="materials__item_title">Кварцевый агломират</h3>
+                            <p class="materials__item_subtitle">Германия</p>
+                        </div>
+                        <div class="materials__item">
+                            <img class="img-responsive" src="images/materials/materials-3.png" alt="material-granit">
+                            <h3 class="materials__item_title">Гранит</h3>
+                            <p class="materials__item_subtitle">Франция</p>
+                        </div>
+                    </div>  
+            </div>
+        </section>
+        <section class="section-projects" id="projects">
+            <div class="section-projects__wrapper _container">
+                <div class="section-title title">
+                    <div class="title-line line"></div>
+                    <h2><span class="title_adv">Проекты </span><span class="title_adv_site">Profystone.ru</span></h2>
+                </div> 
+                <div class="projects-slider swiper-container">
+                    <div class="projects-slider__wrapper swiper-wrapper">
+                        <div class="projects-slider__slide swiper-slide">
+                            <div class="projects-slider__bcg img-responsive">
+                                <h3 class="projects-slider__title">Фартук из кварцевого агломерата для угловой кухни в стиле “Модерн” </h3>
+                            </div>
+                            <div class="projects-slider__image">
+                                <img class="projects-slider__img img-responsive" src="images/project/project-img-1.svg" alt="slider-kitchentable">
+                            </div>
+                        </div>
+                        <div class="projects-slider__slide swiper-slide">
+                            <div class="projects-slider__bcg img-responsive">
+                                <h3 class="projects-slider__title">Столешницы из влагостойкого ЛДСП от производителя </h3>
+                            </div>
+                            <div class="projects-slider__image">
+                                <img class="projects-slider__img img-responsive" src="images/project/project-img-1.svg" alt="slider-kitchentable">
+                            </div>
+                        </div>
+                        <div class="projects-slider__slide swiper-slide">
+                            <div class="projects-slider__bcg ">
+                                <h3 class="projects-slider__title">Фартук из кварцевого агломерата для угловой кухни в стиле “Модерн” </h3>
+                            </div>
+                            <div class="projects-slider__image">
+                                <img class="projects-slider__img img-responsive" src="images/project/project-img-1.svg" alt="slider-kitchenwall">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination__project"></div>
+                    <div class="swiper-button-prev__project"></div>
+                    <div class="swiper-button-next__project"></div>
+                    <div class="btn_callback__project callback btn-callback"></div>
+                </div>
+            </div> 
+        </section>
+        <section class="section-feedback" id="feedback">
+            <div class="section-feedback__wrapper _container">
+                <div class="section-title title">
+                    <div class="title-line line"></div>
+                    <h2><span class="title_adv">Отзывы o</span> <span class="title_adv_site">Profystone.ru</span></h2>
+                </div>
+                <div class="feedback-slider swiper-container">
+                    <div class="feedback-slider__wrapper swiper-wrapper">
+                        <div class="feedback-slider__slide swiper-slide">
+                            <div class="feedback-slider__block">
+                                <div class="feedback-slider__title">
+                                    <div class="feedback-slider__icon"><img src="images/icons/ava-1.png" alt="icon-kitchenwall"></div>
+                                    <h3 class="feedback-slider__subtitle">Столешница из акрилового камня</h3>
+                                </div> 
+                                <p class="feedback_description">Фабрика столешниц - это одна из компаний лидеров на рынке Санкт-Петербурга по продаже, производству и изготовлению столешниц. Среди наших клиентов присутствуют как частные лица, так и коммерческие организации: магазины, кафе, клубы, бары...</p>
+                                <p class="feedback_name">Диана М.</p>
+                                <p class="feedback_data">6 ноября 2021</p>                    
+                            </div>
+                        </div>
+                        <div class="feedback-slider__slide swiper-slide">
+                            <div class="feedback-slider__block">
+                                <div class="feedback-slider__title">
+                                    <div class="feedback-slider__icon"><img src="images/icons/ava-2.png" alt="icon-stairs"></div>
+                                    <h3 class="feedback-slider__subtitle">Подоконник из гранита</h3>
+                                </div>
+                                <p class="feedback_description">Фабрика столешниц - это одна из компаний лидеров на рынке Санкт-Петербурга по продаже, производству и изготовлению столешниц. Среди наших клиентов присутствуют как частные лица.</p>
+                                <p class="feedback_name">Владимир А.</p>
+                                <p class="feedback_data">6 ноября 2021</p> 
+                            </div>
+                        </div>
+                        <div class="feedback-slider__slide swiper-slide">
+                            <div class="feedback-slider__block">
+                                <div class="feedback-slider__title">
+                                    <div class="feedback-slider__icon"><img src="images/icons/ava-3.png" alt="icon-kitchenwall"></div>
+                                    <h3 class="feedback-slider__subtitle">Кухонный фартук из кварцевого агломерата</h3>
+                                </div>    
+                                <p class="feedback_description">Фабрика столешниц - это одна из компаний лидеров на рынке Санкт-Петербурга по продаже, производству и изготовлению столешниц. Среди наших клиентов присутствуют как частные лица, так и коммерческие организации: магазины, кафе, клубы, бары...</p>
+                                <p class="feedback_name">Анна Б.</p>
+                                <p class="feedback_data">6 ноября 2021</p> 
+                            </div>
+                        </div>
+                    </div>
+                        <div class="swiper-pagination__feedback"></div>
+                        <div class="swiper-button-prev__feedback"></div>
+                        <div class="swiper-button-next__feedback"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-faq" id="faq">
+            <div class="section-faq__wrapper _container">
+                    <div class="section-faq__content-wrapper">
+                        <div class="section-faq__content-item">
+                            <div class="section-faq__content-item-wrapper">
+                            <div class="section-faq__title">
+                                <div class="section-faq__title-line"></div>
+                                <h2 class="section-faq__title-title">Свяжитесь с нами</h2> 
+                            </div>
+                            <div class="section-faq__description">
+                                <p class="section-faq__title-description">Оставьте нам свой вопрос, заполнив форму ниже, и наш сециалист свяжется с вами в течение 15 минут. Или просто воспользуйтесь удобным мессенджером.</p>
+                                <form class="form__faq">
+                                    <input class="input input-name" type="text" placeholder="Имя">
+                                    <label><span class="input-phone-label" id='input-error-faq'>Неверный номер телефона</span></label>
+                                    <input class="input input-phone" id="input-phone-faq" type="tel" placeholder="Телефон">
+                                    <textarea class="input-text" placeholder="Сообщение"></textarea>
+                                </form>
+                                <div class="faq-buttons-wreapper">
+                                    <div class="faq-link-wrapper">
+                                        <div class="faq-social-link"><img class="img-responsive" src="images/icons/telegram-icon-white-big.svg" alt="telegram-icon"></div>
+                                        <div class="faq-social-link"><img class="img-responsive" src="images/icons/viber-icon-white-big.svg" alt="viber-icon"></div>
+                                        <div class="faq-social-link"><img class="img-responsive" src="images/icons/whatsapp-icon-white-big.svg" alt="whatsapp-icon"></div>
+                                    </div>
+                                    <button class="button button-secondary">Перезвоните мне</button>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                        <div class="faq-image">
+                            <img class="faq__image img-responsive" src="images/faq/connect-all.png" alt="connect-img"> 
+                        </div>
+                    </div> 
+            </div>    
+        </section>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="footer__container _container">
+            <div class="footer__content-wrapper">
+                <div class="footer__logo">
+                    <img class="img-responsive" src="images/icons/Logo-footer-gray.svg" alt="Logo">
+                </div>
+                <div class="footer-contacts">
+                    <div class="footer__contacts-wrapper">
+                        <p class="footer__contacts-item"><img class="contacts-item-icon" src="images/icons/phone-icon.svg" alt="phone-icon"><a class="footer-link" href="tel:+">8 (812) 566-1926</a></p>
+                        <p class="footer__contacts-item"><img class="contacts-item-icon" src="images/icons/male-icon.svg" alt="male-icon"><a class="footer-link" href="mailto:">hello@stoleshnitsa.ru</a></p>
+                    </div>
+                    <div class="footer__adress-wrapper">
+                        <p class="footer__adress-item">
+                        <img class="adress-item-icon" src="images/icons/address-icon.svg" alt="address-icon">
+                        ул. Бухарестская, д. 1, оф 217,<br/>г. Санкт-Петербург,<br/>192102
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__link-wrapper">
+                    <a href="#"><div class="social-link social-link-fb"></div></a>
+                    <a href="#"><div class="social-link social-link-insta"></div></a>
+                    <a href="#"><div class="social-link social-link-telegram"></div></a>
+                    <a href="#"><div class="social-link social-link-viber"></div></a>
+                    <a href="#"><div class="social-link social-link-whatsapp"></div></a>
+                </div>
+            </div>
+            <div class="footer__politics">
+                <p class="copyright">Все права защищены ProfyStone.ru ©2022</p>
+                <a href="#"><p class="politicss-agreement">Политика конфиденциальности</p></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="callback-mobile btn-callback"><img src="images/icons/callme.svg" alt="callback-icon"></div>
+
+    <div class="modal-window" id="modal-window">
+        <div class="modal-window__content">
+            <div class="modal-window-close-btn" id="modal-window-close-btn">
+                <img class="img-responsive" src="images/icons/close-orange.svg" alt="close-icon">
+            </div>
+            <div class="modal-window__content-order" id="modal-window-order">
+                <h2 class="modal-window__title">Оставить заявку</h2>
+                <p class="modal-window__description">Для расчета стоимости оставьте нам заявку, заполнив форму ниже, и наш сециалист свяжется с вами в течение 15 минут. Или просто воспользуйтесь удобным мессенджером.</p>
+                <form class="form__modal">
+                    <input class="input input-name" type="text" placeholder="Имя">
+                    <label><span class="input-phone-label" id="input-error-modal">Неверный номер телефона</span></label>
+                    <input class="input input-phone" id="input-phone-modal" type="tel" placeholder="Телефон">
+                    <textarea class="input-text" placeholder="Сообщение"></textarea>
+                </form>  
+                <div class="modal-buttons-wreapper">
+                    
+                    <div class="modal-link-wrapper">
+                        <div class="modal-social-link"><img class="img-responsive" src="images/icons/telegram-icon-modal.svg" alt="telegram-icon"></div>
+                        <div class="modal-social-link"><img class="img-responsive" src="images/icons/viber-icon-modal.svg" alt="viber-icon"></div>
+                        <div class="modal-social-link"><img class="img-responsive" src="images/icons/whatsapp-icon-modal.svg" alt="whatsapp-icon"></div>
+                    </div>
+                    <button disabled class="button button-modal" id="modal-window-order-btn">Перезвоните мне</button>
+                </div>
+            </div>
+            <div class="modal-window__content-success" id="modal-window-success">
+                <div class="modal-window-img"><img class="img-responsive" src="images/icons/order-sended-icon.svg" alt="success-icon"></div>
+                <h2 class="modal-window__title">Ваша заявка отправлена!</h2>
+                <p class="modal-window__description">Спасибо за ваш запрос. Ожидайте звонка нашего специалиста.</p>
+            </div> 
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="scripts/scriptSlider.js"></script>
+    <script src="scripts/headerScroll.js"></script>
+    <script src="scripts/smoothScroll.js"></script>
+    <script src="scripts/scriptModalWindow.js"></script>
+    <script src="scripts/scriptValidation.js"></script>
+    <script src="scripts/showCallButton.js"></script>
+<script src="scripts/mobileNavToggle.js"></script>
+</body>
+</html>
